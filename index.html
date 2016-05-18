@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html" charset=UTF-8" />
+<title>Table Creator</title>
+<link rel="stylesheet" href="style.css" type="text/css" />
+<script type="text/javascript" src="table.js"></script>
+<script type="text/javascript" src="style.js"></script>
+
+<!--<style>
+body {displ/ay:inline;}
+input { width:130px;   }
+table, td, tr th {
+border: 1px solid white;
+padding:10px;
+
+}
+table {
+	border-collapse:collapse;
+	margin-left:50px;
+}
+</style>-->
+
+</head>
+
+
+<body>
+	<form id="myForm1">
+		<fieldset>
+			<legend>Create HTML table using Javascript and DOM</legend>
+			<div>
+			Table Caption<br><input type="text" id="tableName" maxlength="20"><br><br>
+			</div>
+			<div>
+
+			<div id="col">
+			Number of Columns (Up to 8)<br>
+			<select name="selec" id="selec">
+				<option></option>
+				<option>2</option>
+				<option>3</option>
+				<option>4</option>
+				<option>5</option>
+				<option>6</option>
+				<option>7</option>
+				<option>8</option>
+			      </select>
+			</div>
+			<div id="helpBox">
+			<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;Help Menu
+			<br><br> - Type colors by name or by &nbsp;&nbsp;&nbsp;HEX value e.g. 'red', 
+			&nbsp;&nbsp;'blue','green''#303083',<br>&nbsp;&nbsp;&nbsp;H'#00FF00'<br><br>- &nbsp;If the table doesn't 
+			respond to &nbsp;&nbsp;&nbsp;input, try deleting and retyping<br><br>
+			-  Double click 'help' to close this &nbsp;&nbsp;&nbsp;menu</p>
+			</div>
+
+		<div id="addData">
+
+		</div>
+
+		</fieldset>
+
+	</form><br><br>
+	
+	<table id="myTable">
+	<caption id="myCaption"> </caption>
+	
+	
+
+	</table>
+
+	<div id="tableStyle">
+		<form>
+		<fieldset id="stylefd">
+		<legend>Style Table</legend>	
+		Header Font Color&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+		&nbsp;&nbsp;&nbsp;&nbsp;	
+		<span id="help">HELP</span><br><input type="text" id="hFontColor" maxlength="20" placeholder="TypeColor"><br>
+		Header Background Color<br><input type="text" id="hBG" maxlength="20"><br>
+		Data Background Color<br><input type="text" id="dBG" maxlength="20"><br>
+		Data Font Color<br><input type="text" id="dFontColor" maxlength="20"><br>
+		
+
+		</form>
+		</fieldset>
+	</div>
+
+	
+
+
+
+
+</body>
+
+
+
+</html>
+

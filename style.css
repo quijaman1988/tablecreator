@@ -1,0 +1,77 @@
+#myCaption {
+	font-weight:bold;
+	display:inline;
+	
+
+}
+
+
+.button {
+    text-indent:0;
+    border:1px solid #eda933;
+    display:inline-block;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:15px;
+    font-weight:bold;
+    font-style:normal;
+    height:30px;
+    line-height:30px;
+    padding: .5em;
+    text-decoration:none;
+    text-align:center;
+    text-shadow:1px 1px 0px #cd8a15;
+    background-color:#f6b33d;
+    cursor:pointer;
+}
+
+#help {
+	font-size: 60%;
+	cursor:pointer;
+
+}
+input {
+	display:inline;
+}
+
+#stylefd {
+	width:15em;
+	float:right;
+
+}
+
+table {
+	float:left;
+	margin-top: 30px;
+	border-color:blue;
+	border-collapse:collapse;
+	margin-left:50px;
+}
+
+body {
+	background-color:#2B2B7D;
+	color:white;
+	font-family:Arial;
+		
+}
+td, tr th {
+border: 1px solid white;
+padding:10px;
+
+}
+
+#helpBox {
+	background-color:#2B2B7D;;
+	float:right;
+	margin-top:3px;
+	height:170px;
+	width:150px;
+	color:white;
+	font-size:63%;
+	display:none;
+	border:1px solid yellow;
+	
+}
+
+input { width:130px;   }
+
